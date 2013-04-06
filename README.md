@@ -1,6 +1,6 @@
-# Data Journalism
+# Data Visualization in the Newsroom
 
-A presentation for a data journalism class.
+A simple presentation about using data visualization in the newsroom and helpful tools.
 
 ## Install
 
