@@ -7,6 +7,10 @@
 }
 
 
+.classic {
+  background-color: #BFBFB3;
+}
+
 footer {
   background-color: #D5D5DD;
   opacity: 0.8;
@@ -16,20 +20,17 @@ footer .credits {
   text-align: right;
 }
 
-article section {
+article section,
+.classic article section {
+  text-align: center;
   transform-style: preserve-3d;
   width: 800px;
   height: 600px;
   margin-left: -400px;
   margin-top: -330px;
-}
-
-.classic {
-  background: #BFBFB3;
-}
-
-.classic section, .classic .arrow:hover {
-  background: #F2F2F9;
+  background-color: #F2F2F9;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .classic section.bespoke-after-1 {
@@ -51,14 +52,26 @@ article section {
 }
 
 h1 {
-  font-size: 20em;
+  font-size: 10em;
   color: #232324;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
 }
 
 h2 {
   position: relative;
   font-size: 6em;
   color: #232324;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -68,4 +81,10 @@ h3 {
   font-weight: 200;
   color: #232324;
   opacity: 0.9;
+  margin-bottom: 1em;
+}
+
+
+article section img {
+  margin-bottom: 2em;
 }

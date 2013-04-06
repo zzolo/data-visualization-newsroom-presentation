@@ -4,7 +4,8 @@
 (function() {
   bespoke.horizontal.from('article', {
     center: true,
-    progress: true
+    progress: true,
+    hash: true
   });
   
   
