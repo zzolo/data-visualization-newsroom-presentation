@@ -1,0 +1,71 @@
+/** 
+ * CSS for presentation
+ */
+
+#main {
+  color: #232324;
+}
+
+
+footer {
+  background-color: #D5D5DD;
+  opacity: 0.8;
+}
+footer .credits {
+  padding: 0 2em;
+  text-align: right;
+}
+
+article section {
+  transform-style: preserve-3d;
+  width: 800px;
+  height: 600px;
+  margin-left: -400px;
+  margin-top: -330px;
+}
+
+.classic {
+  background: #BFBFB3;
+}
+
+.classic section, .classic .arrow:hover {
+  background: #F2F2F9;
+}
+
+.classic section.bespoke-after-1 {
+  -webkit-transform: translate3d(830px, 0, 0);
+  -moz-transform: translate3d(830px, 0, 0);
+  -ms-transform: translate3d(830px, 0, 0);
+  -o-transform: translate3d(830px, 0, 0);
+  transform: translate3d(830px, 0, 0);
+  opacity: 0.3;
+}
+
+.classic section.bespoke-before-1 {
+  -webkit-transform: translate3d(-830px, 0, 0);
+  -moz-transform: translate3d(-830px, 0, 0);
+  -ms-transform: translate3d(-830px, 0, 0);
+  -o-transform: translate3d(-830px, 0, 0);
+  transform: translate3d(-830px, 0, 0);
+  opacity: 0.3;
+}
+
+h1 {
+  font-size: 20em;
+  color: #232324;
+}
+
+h2 {
+  position: relative;
+  font-size: 6em;
+  color: #232324;
+}
+
+h3 {
+  text-align: center;
+  font-family: Gill Sans, Segoe UI Light, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  color: #232324;
+  opacity: 0.9;
+}
