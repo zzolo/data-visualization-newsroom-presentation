@@ -88,3 +88,8 @@ h3 {
 article section img {
   margin-bottom: 2em;
 }
+
+.bandit {
+  background-color: #F2F2F9;
+  padding: .5em 0;
+}
