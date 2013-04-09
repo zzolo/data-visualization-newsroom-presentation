@@ -115,3 +115,9 @@ section ul {
 .bespoke-bullet-active {
   opacity: 1;
 }
+
+.full-link {
+  height: 500px;
+  width: 700px;
+  display: block;
+}
