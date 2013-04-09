@@ -31,6 +31,7 @@ article section,
   background-color: #F2F2F9;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 
 .classic section.bespoke-after-1 {
@@ -92,4 +93,25 @@ article section img {
 .bandit {
   background-color: #F2F2F9;
   padding: .5em 0;
+}
+
+section ul {
+  list-style: none;
+  font-size: 2em;
+}
+
+.bespoke-bullet {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.bespoke-bullet-inactive {
+  opacity: 0.2;
+}
+
+.bespoke-bullet-active {
+  opacity: 1;
 }
